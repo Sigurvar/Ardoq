@@ -18,6 +18,7 @@ class CodingTest {
 	void testGetHighestProductFromList() {
 		assertEquals(0,  c.getHighestProductFromList(Arrays.asList()));
 		assertEquals(10*5*6,c.getHighestProductFromList(Arrays.asList(1, 10, 2, 6, 5, 3)));
+		assertEquals(20*-20*-3, c.getHighestProductFromList(Arrays.asList(0, 5, -3, -1, -2, -20, 20, 10)));
 	}
 
 }
